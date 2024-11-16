@@ -20,4 +20,8 @@ public abstract class ServicoMensagemInstantanea {
 	
 	public abstract void enviarMensagemABS();
 	public abstract void receberMensagemABS();
+	
+	protected void validarConectadoInternetPoli() {
+		System.out.println("Validando se esta conetado a internet com polimorfismo");
+	}
 }

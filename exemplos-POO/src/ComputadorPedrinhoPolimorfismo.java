@@ -4,19 +4,21 @@ import aplicativos.Telegram;
 import services.ServicoMensagemInstantanea;
 
 public class ComputadorPedrinhoPolimorfismo {
-	public static void Main(String[] args) {
-		ServicoMensagemInstantanea smi = null;
+		public static void main(String[] args) {
+			ServicoMensagemInstantanea smi = null;
 		
-		String appEscolhido="tlg";
+			String appEscolhido="tlg";
 		
-		if(appEscolhido.equals("msn"))
+			if(appEscolhido.equals("msn"))
 			smi = new MSNMessenger();
-		else if(appEscolhido.equals("fbm"))
+			else if(appEscolhido.equals("fbm"))
 			smi = new FacebookMessenger();
-		else if(appEscolhido.equals("tlg"))
+			else if(appEscolhido.equals("tlg"))
 			smi = new Telegram();
 		
-		smi.enviarMensagemABS();
-		smi.receberMensagemABS();
+			smi.enviarMensagemABS();
+			smi.receberMensagemABS();
+		
+		
 	}
 }

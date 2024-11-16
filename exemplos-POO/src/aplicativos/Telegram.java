@@ -1,10 +1,13 @@
 package aplicativos;
+
 import services.ServicoMensagemInstantanea;
+
 public class Telegram extends ServicoMensagemInstantanea  {
 
 	@Override
 	public void enviarMensagemABS() {
 		// TODO Auto-generated method stub
+		validarConectadoInternetPoli();
 		System.out.println("Enviando mensagem Telegram abstract");
 	}
 

@@ -1,4 +1,4 @@
-
+/*
 import aplicativos.FacebookMessenger;
 import aplicativos.MSNMessenger;
 import aplicativos.Telegram;
@@ -28,3 +28,4 @@ public class ComputadorPedrinho {
 	tlg.enviarMensagemABS();
 }
 }
+*/
